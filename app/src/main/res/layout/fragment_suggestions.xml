@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestions:"
+        style="?android:textAppearanceSmall"
+        android:textAllCaps="true"
+        android:textColor="#777777"
+        android:layout_marginBottom="4dp"
+        />
+
+    <compscieddy.activitytrackerdraft.HorizontalFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="working out"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="reading"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="hiking"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="designing"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="coding"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tag_height"
+            android:text="jogging"
+            android:background="@drawable/tag"
+            style="@style/suggestions_button"/>
+    </compscieddy.activitytrackerdraft.HorizontalFlowLayout>
+
+</LinearLayout>
