@@ -19,41 +19,35 @@
     <compscieddy.activitytrackerdraft.HorizontalFlowLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginLeft="-4dp">
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="working out"
+            android:text="Working Out"
+            style="@style/suggestions_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Reading"
             android:background="@drawable/tag"
             style="@style/suggestions_button"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="reading"
+            android:text="Hiking"
             android:background="@drawable/tag"
             style="@style/suggestions_button"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="hiking"
+            android:text="Designing"
             android:background="@drawable/tag"
             style="@style/suggestions_button"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="designing"
+            android:text="Coding"
             android:background="@drawable/tag"
             style="@style/suggestions_button"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="coding"
-            android:background="@drawable/tag"
-            style="@style/suggestions_button"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/tag_height"
-            android:text="jogging"
+            android:text="Jogging"
             android:background="@drawable/tag"
             style="@style/suggestions_button"/>
     </compscieddy.activitytrackerdraft.HorizontalFlowLayout>

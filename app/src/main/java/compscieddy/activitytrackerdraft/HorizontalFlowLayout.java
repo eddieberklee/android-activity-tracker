@@ -53,7 +53,7 @@ public class HorizontalFlowLayout extends RelativeLayout {
 
     View child;
     MarginLayoutParams childMarginLayoutParams;
-    int childWidth, childHeight, childMarginLeft, childMarginRight, childMarginTop, childMarginBottom;
+    int childWidth, childHeight, childMarginLeft, childMarginRight, childMarginTop, childMarginBottom, childPaddingTop, childPaddingBottom;
 
     for (int i = 0; i < getChildCount(); i++)
     {
@@ -65,8 +65,7 @@ public class HorizontalFlowLayout extends RelativeLayout {
         childHeight = child.getMeasuredHeight();
 
         if (child.getLayoutParams() != null
-            && child.getLayoutParams() instanceof MarginLayoutParams)
-        {
+            && child.getLayoutParams() instanceof MarginLayoutParams) {
           childMarginLayoutParams = (MarginLayoutParams)child.getLayoutParams();
 
           childMarginLeft = childMarginLayoutParams.leftMargin;
